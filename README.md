@@ -10,8 +10,6 @@
 * [0x04 Testing](#0x04-Testing)
 * [0x05 Usage](#0x05-Usage)
 * [0x06 Authors](#0x06-Authors)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ## 0x01 Introduction
 
@@ -257,28 +255,13 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 > *Update the file.json*
 ```
 ## Authors
-<details>
-    <summary>Obetta Augustine</summary>
-    <summary>Sulaimon</summary>
-    <ul>
-    <li><a href="https://www.github.com/YemiReble">Github</a></li>
-    <li><a href="mailto:abodunrinsulaimon1@gmail.com">e-mail</a></li>
-    <li><a href="https://www.github.com/Augustine-ebuka">Github</a></li>
-    <li><a href="mailto:augustineebuka98@gmail.com.com">e-mail</a></li>
-    </ul>
+<details> 
+<summary>Sulaimon Abodunrin</summary>
+<summary>Obetta Augustine</summary>
+<ul>
+<li><a href="https://www.github.com/YemiReble">Github</a></li>
+<li><a href="mailto:abodunrinsulaimon1@gmail.com">e-mail</a></li>
+<li><a href="https://www.github.com/Augustine-ebuka">Github</a></li>
+<li><a href="mailto:augustineebuka98@gmail.com.com">e-mail</a></li>
+</ul>
 </details>
-
-## How to add Author file
-`Bash script for generating the list of authors in git repo`
-```
-#!/bin/sh
-
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
-  ```
-=======
-ll
-
-=======
